@@ -1,0 +1,239 @@
+body, p, span, h1, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.my-header .navbar-brand span {
+  height: 43px;
+  width: 40px;
+  display: inline-block;
+  background: #25689e;
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  border-radius: 5px;
+  padding-top: 6px;
+  margin-right: 5px;
+}
+
+.my-header .nav-item:hover .dropdown-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: none;
+}
+
+.slider-section {
+  position: relative;
+}
+
+.slider-section .carousel-item {
+  width: 100%;
+  height: 550px;
+}
+
+.slider-section .carousel-item .carousel-caption {
+  padding-bottom: 9.4rem;
+  z-index: 33;
+}
+
+.slider-section::before {
+  content: "";
+  width: 98%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 9px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 33;
+}
+
+.range {
+  margin-left: 80px;
+}
+
+.range .inner span {
+  margin-top: 15px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.range .inner .load {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #a89b9b;
+  border-top: 3px solid #585454;
+  border-radius: 50%;
+}
+
+.range .inner .load.nam {
+  border-left: 3px solid #585454;
+}
+
+.range .inner .load h2 {
+  padding-top: 55px;
+  padding-left: 45px;
+}
+
+.blog-s .contant {
+  padding: 30px 60px;
+}
+
+.blog-s .contant h5 {
+  margin-top: 17px;
+}
+
+.blog-s .contant p {
+  font-size: 14px;
+  margin-top: 26px;
+}
+
+.blog-s .contant .btn {
+  border-radius: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.blog-s .contant .btn:hover {
+  background: #000 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.target {
+  padding: 80px 0;
+}
+
+.target .mid-target {
+  border-bottom: 2px solid #FF214F;
+  padding: 45px 20px;
+  text-align: center;
+  position: relative;
+  -webkit-transition: .2s;
+  transition: .2s;
+  z-index: 1;
+}
+
+.target .mid-target:hover::after {
+  height: 100%;
+}
+
+.target .mid-target:hover h5 {
+  color: #fff;
+}
+
+.target .mid-target:hover p {
+  color: #fff;
+}
+
+.target .mid-target i {
+  color: #FF214F;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.target .mid-target h5 {
+  font-size: 16px;
+  color: #272323;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.target .mid-target p {
+  color: #000;
+}
+
+.target .mid-target::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  display: inline-block;
+  background: #2f2f2f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  z-index: -1;
+}
+
+.parent-div {
+  padding: 90px 0;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.parent-div ul {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.parent-div li {
+  display: inline-block;
+}
+
+.parent-div li.active a {
+  text-decoration: underline;
+}
+
+.parent-div li:hover a {
+  text-decoration: underline;
+}
+
+.parent-div a {
+  padding: 20px 25px;
+  text-align: center;
+  color: #2f2f2f;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.parent-div .image-div {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.parent-div .image-div:hover .hover-div {
+  visibility: visible;
+  opacity: 1;
+}
+
+.parent-div .image-div img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.parent-div .image-div .hover-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.parent-div .image-div .hover-div .pink {
+  height: 2px;
+  width: 50px;
+  background: #FF214F;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+
+.parent-div .image-div .hover-div h5 {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
